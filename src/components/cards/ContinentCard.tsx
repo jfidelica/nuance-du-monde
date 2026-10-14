@@ -37,7 +37,7 @@ export default function ContinentCard({ name, image, compact = false }: Props) {
           {name}
         </h3>
         <Link
-          href={`/destinations?continent=${encodeURIComponent(name)}`}
+          href={`/destinations?continent=${encodeURIComponent(name)}#toutes-les-destinations`}
           className={`inline-block px-4 py-2 text-sm rounded-md bg-[#d9a900] text-white font-semibold shadow hover:bg-[#d9a900] transition-colors ${compact ? "mt-1.5 sm:mt-3" : "mt-4"}`}
         >
           Explorer
